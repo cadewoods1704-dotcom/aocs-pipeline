@@ -10,7 +10,7 @@ degradation for an embedded real time systems role.
 
 ## Architecture
 
-[System architecture]
+Full Diagram [docs/System architecture diagram.png] (https://github.com/cadewoods1704-dotcom/aocs-pipeline/blob/main/System%20architecture%20diagram.png)
 
 The producer samples attitude at 20 Hz and sends an aocs_t into data_q. The consumer
 receives it and computes an estimate. Each one sets its own bit in evt_group when it
@@ -24,11 +24,10 @@ pinned so this is enforced by the scheduler.
 
 ## Tasks and timing (WCET evidence)
 
-Full method and instrumentation: [docs/task-table.md](https://github.com/cadewoods1704-dotcom/aocs-pipeline/blob/main/ddocs/task-table.md)
-
+Full method and instrumentation: [docs/task-table.md](https://github.com/cadewoods1704-dotcom/aocs-pipeline/blob/main/task-table.md)
 ## Hazard analysis and standard mapping
 
-Full table: [docs/hazard-analysis.md](https://github.com/cadewoods1704-dotcom/aocs-pipeline/blob/main/docs/hazard-analysis.md)
+Full table: [docs/hazard-analysis.md](https://github.com/cadewoods1704-dotcom/aocs-pipeline/blob/main/hazard-analysis.md)
 
 
 ## Graceful degradation
