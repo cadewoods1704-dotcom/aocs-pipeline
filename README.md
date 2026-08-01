@@ -24,7 +24,7 @@ pinned so this is enforced by the scheduler.
 
 ## Tasks and timing (WCET evidence)
 
-Full method and instrumentation: [docs/task-table.md][docs/hazard-analysis.md](https://github.com/cadewoods1704-dotcom/aocs-pipeline/blob/main/ddocs/task-table.md)
+Full method and instrumentation: [docs/task-table.md](https://github.com/cadewoods1704-dotcom/aocs-pipeline/blob/main/ddocs/task-table.md)
 
 ## Hazard analysis and standard mapping
 
